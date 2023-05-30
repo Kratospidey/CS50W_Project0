@@ -1,0 +1,100 @@
+* {
+	background-color: #202124;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+	padding: 15px;
+}
+
+.logo {
+	font-size: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-weight: 600;
+}
+
+.page {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	color: white;
+}
+
+.pagecenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.pagefield {
+	border: 1px solid #5f6368;
+	border-radius: 30px;
+	height: 40px; /* Set the height for the search bar */
+	width: 500px; /* Set the width for the search bar */
+	padding: 8px; /* Add some padding for internal spacing */
+	font-size: 16px; /* Set the font size for the text input */
+}
+
+.pagefield:hover {
+	border: none;
+	background-color: #303134;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pagefield:focus {
+	border: none;
+	outline: none;
+	background-color: #303134;
+}
+
+.pagesubmit,
+.pagelucky {
+	background-color: #303134;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.pageform {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.pagebuttons {
+	display: flex;
+	gap: 10px;
+}
+
+.pagesubmit:hover,
+.pagelucky:hover {
+	border: 1px solid #5f6368;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.pagelinks {
+	display: flex;
+	gap: 20px;
+}
