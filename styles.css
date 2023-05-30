@@ -48,7 +48,7 @@ input {
 .pagefield:hover {
 	border: none;
 	background-color: #303134;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 .pagefield:focus {
@@ -97,4 +97,8 @@ a {
 .pagelinks {
 	display: flex;
 	gap: 20px;
+}
+
+.pagelinks a:hover {
+	text-decoration: underline;
 }

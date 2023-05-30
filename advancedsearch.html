@@ -15,8 +15,8 @@
 					<h1 id="headerlabel">Advanced Search</h1>
 				</div>
 				<div id="headerright">
-					<a href="index.html" target="_blank">Search</a>
-					<a href="imagesearch.html" target="_blank">Image Search</a>
+					<a href="index.html">Search</a>
+					<a href="imagesearch.html">Image Search</a>
 				</div>
 			</div>
 			<br />
@@ -26,20 +26,41 @@
 				<form class="pageform" action="https://www.google.com/search">
 					<div id="searchone">
 						<p class="promptext">all these words:</p>
-						<input class="pagefield" type="text" name="q" autocomplete="off" />
+						<input
+							class="pagefield"
+							type="text"
+							name="as_q"
+							autocomplete="off"
+						/>
 					</div>
 					<div id="searchtwo">
 						<p class="promptext">this exact word or phrase:</p>
-						<input class="pagefield" type="text" name="q" autocomplete="off" />
+						<input
+							class="pagefield"
+							type="text"
+							name="as_epq"
+							autocomplete="off"
+						/>
 					</div>
 					<div id="searchthree">
 						<p class="promptext">any of these words:</p>
-						<input class="pagefield" type="text" name="q" autocomplete="off" />
+						<input
+							class="pagefield"
+							type="text"
+							name="as_oq"
+							autocomplete="off"
+						/>
 					</div>
 					<div id="searchfour">
 						<p class="promptext">none of these words:</p>
-						<input class="pagefield" type="text" name="q" autocomplete="off" />
+						<input
+							class="pagefield"
+							type="text"
+							name="as_eq"
+							autocomplete="off"
+						/>
 					</div>
+					<input class="pagesubmit" type="submit" value="Advanced Search" />
 				</form>
 			</div>
 		</div>
