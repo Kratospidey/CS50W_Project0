@@ -78,22 +78,22 @@ p {
 .pageform .pagefield {
 	color: white;
 	border: 1px solid #5f6368;
-	height: 40px; /* Set the height for the search bar */
-	width: 500px; /* Set the width for the search bar */
-	padding: 8px; /* Add some padding for internal spacing */
-	font-size: 16px; /* Set the font size for the text input */
+	height: 40px;
+	width: 500px;
+	padding: 8px;
+	font-size: 16px;
 }
 .pageform .pagefield:focus {
 	outline-color: #81a8e7;
-	outline-style: solid; /* Set the outline style to solid */
-	outline-width: 2px; /* Set the width of the outline */
-	outline-offset: -2px; /* Offset the outline to remove the white outline */
+	outline-style: solid;
+	outline-width: 2px;
+	outline-offset: -2px;
 }
 
 .pageform {
 	display: flex;
 	flex-direction: column;
-	align-items: center; /* Align items vertically in the form */
+	align-items: center; 
 	gap: 20px;
 }
 
