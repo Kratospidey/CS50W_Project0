@@ -93,7 +93,7 @@ p {
 .pageform {
 	display: flex;
 	flex-direction: column;
-	align-items: center; 
+	align-items: center;
 	gap: 20px;
 }
 
@@ -107,8 +107,31 @@ p {
 	background-color: #aecbfa;
 }
 
-
 #headerright a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
+}
 
+#searchone,
+#searchtwo,
+#searchthree,
+#searchfour {
+	display: flex;
+	align-items: center;
+}
+
+.promptext {
+	font-weight: 100;
+	margin-right: 10px;
+	width: 200px;
+	display: inline-block;
+	opacity: 0.9;
+}
+
+.pagefield {
+	color: white;
+	border: 1px solid #5f6368;
+	height: 40px;
+	flex-grow: 1;
+	padding: 8px;
+	font-size: 16px;
 }
