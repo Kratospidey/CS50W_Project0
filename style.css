@@ -102,6 +102,7 @@ p {
 	border-radius: 3px;
 	padding: 10px;
 	margin-left: auto;
+	border: none;
 }
 .pagesubmit:hover {
 	background-color: #aecbfa;
